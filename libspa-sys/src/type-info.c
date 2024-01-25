@@ -56,11 +56,6 @@ const struct spa_type_info* libspa_rs_type_audio_iec958_codec = spa_type_audio_i
 // spa/param/bluetooth
 const struct spa_type_info* libspa_rs_type_bluetooth_audio_codec = spa_type_bluetooth_audio_codec;
 
-// spa/param/video
-const struct spa_type_info* libspa_rs_type_video_format = spa_type_video_format;
-const struct spa_type_info* libspa_rs_type_video_flags = spa_type_video_flags;
-const struct spa_type_info* libspa_rs_type_video_interlace_mode = spa_type_video_interlace_mode;
-
 const struct spa_type_info* libspa_rs_debug_type_find(
     const struct spa_type_info* info,
     uint32_t type

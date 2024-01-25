@@ -80,12 +80,6 @@ extern "C" {
     pub static spa_type_audio_iec958_codec: *const spa_type_info;
     #[link_name = "libspa_rs_type_bluetooth_audio_codec"]
     pub static spa_type_bluetooth_audio_codec: *const spa_type_info;
-    #[link_name = "libspa_rs_type_video_format"]
-    pub static spa_type_video_format: *const spa_type_info;
-    #[link_name = "libspa_rs_type_video_flags"]
-    pub static spa_type_video_flags: *const spa_type_info;
-    #[link_name = "libspa_rs_type_video_interlace_mode"]
-    pub static spa_type_video_interlace_mode: *const spa_type_info;
 
     #[link_name = "libspa_rs_debug_type_find"]
     pub fn spa_debug_type_find(info: *const spa_type_info, type_: u32) -> *const spa_type_info;
